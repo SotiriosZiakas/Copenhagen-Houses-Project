@@ -8,23 +8,23 @@ The aim of this project is to build a Machine Learning model, which is trained o
 
 1. **train_model:**
     
-    a. First we read the data from a **csv** to a **pandas dataframe.**
-    b. Next we use a custom class imported from *build_features* to clean the data. 
-    c. Then we use a *preprocessor*, which is actually a *ColumnTranformer*. This helps us fill in the missing values using *SimpleImputer* and scale the features with *StandardScaler*.
-    d. We also treat the categorical feature 'energyClass' using *OrdinalEncoder*.
-    e. Next step is to create a pipeline, which contains our *preprocessor* and the regressor for this task, which is *RandomForestRegressor*.
-    f. We split the data using the function *split* whic is also inside *build_features*.
-    g. Laslty we train the model using our pipeline and save it with the help of **joblib.dump**
+    1. First we read the data from a **csv** to a **pandas dataframe.**
+    2. Next we use a custom class imported from *build_features* to clean the data. 
+    3. Then we use a *preprocessor*, which is actually a *ColumnTranformer*. This helps us fill in the missing values using *SimpleImputer* and scale the features with *StandardScaler*.
+    4. We also treat the categorical feature 'energyClass' using *OrdinalEncoder*.
+    5. Next step is to create a pipeline, which contains our *preprocessor* and the regressor for this task, which is *RandomForestRegressor*.
+    6. We split the data using the function *split* whic is also inside *build_features*.
+    7. Laslty we train the model using our pipeline and save it with the help of **joblib.dump**
 
 2. **predict_model:**
 
-    a. Load the model we created using **joblib.load**
-    b. Make predictions.
+    1. Load the model we created using **joblib.load**
+    2. Make predictions.
 
 3. **visualizations:**
 
-    a. Make a dataframe consisting of the **real** and the **predicted** values, print the **r-squared value** and plot the real VS predicted values using **plotly** for an **interactive visualization.**
-    b. Plot **histograms** of the numerical features.
-    c. Plot the location of each house on the map of Copenhagen based on its **coordinates.**
+    1. Make a dataframe consisting of the **real** and the **predicted** values, print the **r-squared value** and plot the real VS predicted values using **plotly** for an **interactive visualization.**
+    2. Plot **histograms** of the numerical features.
+    3. Plot the location of each house on the map of Copenhagen based on its **coordinates.**
 
 
