@@ -17,4 +17,4 @@ for x in range(1,25):
         results.append(product)
 
 my_data = pd.json_normalize(results)
-my_data.to_csv('boliga_results.csv')
+my_data.to_csv('house_results.csv')
