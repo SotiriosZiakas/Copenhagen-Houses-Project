@@ -1,5 +1,5 @@
 # Copenhagen Houses Project
-==============================
+
 
 The aim of this project is to build a Machine Learning model, which is trained on house data in the area of Copenhagen and predicts their price. The project is a personal first attempt to use Visual Studio Code and cookiecutter. It is part of my self-study personal projects, where I try new techniques. Working on this project I have learned many new tools and I am very excited to continue and learn even more.
 
