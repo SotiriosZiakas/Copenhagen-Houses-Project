@@ -8,7 +8,7 @@ The aim of this project is to build a Machine Learning model, which is trained o
 
 1. **train_model:**
     
-    1. First we read the data from a **csv** to a **pandas dataframe**.
+    1. First we read the data from a **csv** file to a **pandas dataframe**.
     2. Next we use a custom transformer imported from *build_features* to clean the data. 
     3. Then we use a *preprocessor*, which is actually a *ColumnTranformer*. This helps us fill in the missing values using *SimpleImputer* and scale the features with *StandardScaler*.
     4. We also treat the categorical feature 'energyClass' using *OrdinalEncoder*.
