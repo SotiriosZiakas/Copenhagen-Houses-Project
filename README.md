@@ -34,7 +34,7 @@ The aim of this project is to build a Machine Learning model, which is trained o
 
     a. Load the model trained on the entire dataset using **joblib.load**.
     
-    b. Load **new data** that is *unknown* toour model.
+    b. Load **new data** that is *unknown* to our model.
     
     c. Make predictions.
 
