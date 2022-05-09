@@ -18,7 +18,7 @@ The aim of this project is to build a Machine Learning model, which is trained o
     
     e. Next step is to create a pipeline, which contains our *preprocessor* and the regressor for this task, which is *RandomForestRegressor*.
     
-    f. We split the data using the function *split* whic is also inside *build_features*.
+    f. We split the data using the function *split* which is also inside *build_features*.
     
     g. Laslty we train the model using our pipeline and save it with the help of **joblib.dump**.
 
@@ -28,7 +28,7 @@ The aim of this project is to build a Machine Learning model, which is trained o
     
     b. Make prediction on the test set.
     
-    c. Save and use them to make a plot with real VS predicted prices.
+    c. Save and use them to make a plot with real versus predicted prices.
 
 3. **predict_model:**
 
