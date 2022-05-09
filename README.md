@@ -10,7 +10,7 @@ The aim of this project is to build a Machine Learning model, which is trained o
     
     a. First we read the data from a **csv** to a **pandas dataframe**.
     
-    b. Next we use a custom class imported from *build_features* to clean the data.
+    b. Next we use a custom transformer imported from *build_features* to clean the data.
     
     c. Then we use a *preprocessor*, which is actually a *ColumnTranformer*. This helps us fill in the missing values using *SimpleImputer* and scale the features with *StandardScaler*.
     
