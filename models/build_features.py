@@ -75,7 +75,7 @@ def build_preprocessor():
         ('scaler', StandardScaler())
             ])
 
-    # Order the energy labels from A20 to G (best to worst)
+    # Put the energy labels in order from A20 to G (best to worst)
 
     categorical_features = ['energyClass']
     categorical_transformer = Pipeline(steps=[
