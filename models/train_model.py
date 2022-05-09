@@ -24,7 +24,7 @@ from build_features import build_preprocessor
 preprocessor = build_preprocessor()
 
 """
-Make a 2 step pipeline, in which first impute missing values of the floor column & order the energy levels using our preprocessor
+Make a 2 step pipeline, in which we first impute missing values of the floor column & put the energy levels in order using our preprocessor
 and then we pass the result to our regressor model
 
 """
